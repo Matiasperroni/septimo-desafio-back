@@ -1,4 +1,4 @@
-import messagesModel from "../schemas/messages.schema.js";
+import messagesModel from "../models/messages.schema.js";
 
 class messagesManagerDB {
     constructor() {

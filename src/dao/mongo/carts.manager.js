@@ -1,4 +1,4 @@
-import cartModel from "../schemas/carts.schema.js";
+import cartModel from "../models/carts.schema.js";
 
 class CartManagerDB {
     constructor() {

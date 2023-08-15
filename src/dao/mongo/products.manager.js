@@ -1,4 +1,4 @@
-import productsModel from "../schemas/products.schema.js";
+import productsModel from "../models/products.schema.js";
 
 class productsManagerDB {
     constructor() {

@@ -1,6 +1,6 @@
 import passport from "passport";
 import local from "passport-local";
-import userService from "../dao/models/users.manager.js";
+import userService from "../dao/models/users.schema.js";
 import { createHash, validatePassword } from "../utils.js";
 import GitHubStrategy from "passport-github2";
 // let url = "http://http://localhost:8080/sessions/githubcallback"
