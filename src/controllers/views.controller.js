@@ -14,3 +14,17 @@ export const getMessages = async (req, res) => {
     // res.send(chat)
     res.render("chat", {chat})
 };
+
+export const register = (req, res) => {
+    res.render('register');
+}
+
+export const login = (req, res) => {
+    res.render('login');
+}
+
+export const profile = (req, res) => {
+    res.render('profile', {
+        user: req.session.user
+    });
+}
